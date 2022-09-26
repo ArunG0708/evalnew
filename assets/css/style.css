@@ -1,0 +1,822 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    /* border: 1px solid black; */
+}
+
+.ldc {
+    /* width: 6%; */
+    width: 70%;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 18%;
+
+}
+
+.heads {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.usr {
+    height: 14px;
+    width: 20%;
+    /* padding-top: 0%; */
+    margin-top: 7%;
+}
+
+.login {
+    display: flex;
+}
+
+.navbar li {
+    /* float: right; */
+    list-style: none;
+    padding: 4px 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    left: 20px;
+
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.navbar li a:hover {
+    border-bottom: 2px solid red;
+}
+
+
+
+.section-1 {
+    background-image: url("/Evaluation1/assets/img/home-parallax.png");
+    background-size: cover;
+    height: 400px;
+}
+
+.welcome {
+    font-family: sans-serif;
+    /* padding: 5%; */
+    padding-left: 6% 8%;
+    font-size: large;
+    padding-top: 4%;
+    padding-left: 7%;
+}
+
+.real {
+    padding-left: 7%;
+    padding-top: 1%;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 34%;
+   color: hsl(229deg 32% 26%);
+}
+
+.lorem {
+    width: 34%;
+    padding-left: 7%;
+    font-family: system-ui;
+    font-size: smaller;
+    padding-top: 1%;
+    color: grey;
+}
+
+.btn-sec {
+    padding-top: 2%;
+    display: flex;
+}
+
+.btn-1-1 {
+    width: 110px;
+    padding: 9px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-1 {
+    padding-left: 7%;
+}
+
+.btn-2 {
+    padding-left: 8px;
+}
+
+.btn-2-2 {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: white;
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+}
+
+.elipse-image {
+    width: 61%;
+    /* padding-left: 1%; */
+    margin-left: 25%;
+}
+
+.image-sec {
+    width: 40%;
+    padding-top: 4%;
+}
+
+.section2-WhyLDC {
+    display: flex;
+}
+
+.section-2-2 {
+    width: 60%;
+}
+
+.real-1 {
+    padding-left: 7%;
+    padding-top: 1%;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 60%;
+    color: hsl(229deg 32% 26%);
+}
+
+.lorem-1 {
+    width: 60%;
+    padding-left: 7%;
+    font-family: system-ui;
+    font-size: smaller;
+    padding-top: 1%;
+    color: grey;
+}
+
+.btn-3-1 {
+    width: 110px;
+    padding: 9px;
+    /* background-color: red; */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(203deg 94% 38%);
+    font-size: x-small;
+}
+
+.btn-3 {
+    padding-left: 7%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    height: 35px;
+    width: 6%;
+    margin-right: 8%;
+    border-radius: 50%;
+    background-color: hsl(203deg 94% 38%);
+    border: none;
+}
+
+.section3-card{
+    background-color: hsl(203deg 100% 94%);
+    margin-top: 3%;
+}
+
+.sec-3-1 {
+    padding-bottom: 2%;
+}
+
+.our {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.our-para {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    font-family: system-ui;
+}
+
+.circle-2 {
+    width: 6%;
+    height: 64px;
+    border-radius: 50%;
+    background-color: hsl(203deg 100% 92%);
+    border: none;
+    position: relative;
+    left: 12%;
+}
+
+.cards-sec {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.card1-image {
+    width: 60%;
+}
+
+.card-1 {
+    width: 100%;
+    background-image: url("/Evaluation1/assets/img/house.png");
+    /* height: 229px; */
+
+
+}
+
+.image-div {
+    position: relative;
+    z-index: 1;
+}
+
+.lonch-btn {
+    padding: 3px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    margin-left: 6px;
+    margin-top: 7px;
+    border: none;
+}
+
+.hamilton {
+    font-family: system-ui;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    /* padding-top: 2%; */
+    margin-top: 60%;
+}
+
+.bank390 {
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.card-2 {
+    width: 100%;
+    background-image: url("/Evaluation1/assets/img/Layer\ 10.png");
+
+}
+
+.semi {
+    display: flex;
+    padding-top: 3%;
+
+    justify-content: space-between;
+}
+
+.heart-div {
+    width: 9%;
+    background-color: hsl(203deg 100% 92%);
+    border-radius: 50%;
+}
+
+.heart-div img {
+    padding-left: 5px;
+}
+
+.semi-para {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.semi-main {
+    background-color: white;
+    width: 100%;
+}
+
+.sqft {
+    display: inline;
+    font-size: small;
+    font-family: system-ui;
+}
+
+.hicon-imag {
+    width: 18%;
+}
+
+.main-icons {
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    justify-content: space-around;
+}
+
+.purchase {
+    font-family: system-ui;
+    font-size: small;
+}
+
+.doller {
+
+    font-weight: bold;
+    font-size: small;
+    font-family: cursive;
+}
+
+.main-perchase {
+    display: flex;
+    justify-content: space-around;
+}
+
+.invest-btn-div {}
+
+.invest-btn {
+    background-color: hsl(203deg 94% 38%);
+
+    padding: 6px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: small;
+    margin-left: 6px;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.card-3 {
+    width: 100%;
+    background-image: url("/Evaluation1/assets/img/Layer\ 11.png");
+
+}
+
+.main-card2 {
+    margin-left: 2%;
+
+}
+.main-card2:hover{
+    transform: scale(1.25);
+}
+
+.section4-AI {
+    background-image: url("/Evaluation1/assets/img/house-g4f97e082b_1920.png");
+    background-color: black;
+
+}
+
+.artificial {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+
+}
+
+.artificial-div {
+    padding-top: 3%;
+}
+
+.uncover {
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.btn-1-2 {
+    width: 110px;
+    padding: 9px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn1 {
+    padding-left: 45%;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+
+.simple {
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: hsl(229deg 32% 26%);
+    padding-top: 6%;
+    width: 68%;
+}
+
+.simple-para {
+    /* width: 40%; */
+    /* padding-left: 7%; */
+    font-family: system-ui;
+    font-size: smaller;
+    padding-top: 1%;
+    color: grey;
+}
+
+.circle-1 {
+    height: 35px;
+    width: 6%;
+    margin-right: 8%;
+    border-radius: 50%;
+    background-color: hsl(203deg 94% 38%);
+    border: none;
+    padding-top: 5%;
+    margin-top: 12%;
+    margin-left: 2%;
+}
+
+.simple-main {}
+
+ul {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+ul.li {
+    padding-top: 9%;
+}
+
+
+ul li::before {
+    content: "\2022";
+    color: hsl(203deg 94% 38%);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+
+}
+
+.lorem-2 {
+    width: 60%;
+    font-family: system-ui;
+    font-size: smaller;
+    padding-top: 1%;
+    color: grey;
+}
+
+.btn4-1 {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(203deg 94% 38%);
+    font-size: small;
+    padding: 9px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-4 {
+    padding-top: 4%;
+}
+
+.phone-image {
+    width: 70%;
+    padding-top: 4%;
+}
+
+.section5-phone {
+    display: flex;
+}
+
+.triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 36px solid hsl(203deg 94% 38%);
+    border-right: 100px solid transparent;
+    margin-top: 2%;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 41px solid transparent;
+    border-right: 60px solid black;
+    border-bottom: 7px solid transparent;
+    margin-right: 3%;
+    margin-top: 7%;
+    position: relative;
+    bottom: 48px;
+    right: 66px;
+}
+
+.section6-cofee{
+    background-color: hsl(0deg 0% 96%);
+    display: flex;
+    margin-top: 3%;
+}
+
+.red-div {
+    height: 40px;
+    width: 8%;
+    border-radius: 19%;
+    background-color: red;
+    border: none;
+    margin-top: 3%;
+    position: relative;
+    z-index: 1;
+    left: 24px;
+}
+
+.cofee-image {
+    width: 87%;
+    border-radius: 10px;
+    padding-top: 7%;
+    margin-bottom: 5%;
+}
+
+.circle-2 {
+    height: 70px;
+    width: 9%;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    padding-top: 7%;
+    margin-top: 14%;
+}
+
+.view-btn {
+    padding-top: 5%;
+
+}
+.view-btn2 {
+    padding-top: 5%;
+
+}
+
+.investment {
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: hsl(229deg 32% 26%);
+    padding-top: 2%;
+    width: 68%;
+
+}
+
+.buetel {
+    width: 72%;
+    margin-top: 4%;
+    border-radius: 7px;
+}
+
+.section7-invest {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.investment-div {
+    padding-left: 7%;
+
+}
+
+.red-div2 {
+    height: 47px;
+    width: 8%;
+    border-radius: 19%;
+    background-color: red;
+    border: none;
+    position: relative;
+    z-index: 1;
+    right: 14%;
+    top: 150px;
+}
+
+.section-8 {
+    background-color: hsl(1deg 64% 50%);
+    background-image: url("/Evaluation1/assets/img/job545-wit-22.png");
+    display: flex;
+
+}
+
+.laptop {
+    width: 90%;
+}
+.laptop-div{
+    margin-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.sell {
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+    padding-top: 3%;
+    width: 68%;
+
+}
+.lorem-pading{
+    padding-top: 1%;
+}
+
+.lorem-3 {
+    width: 60%;
+    font-family: system-ui;
+    font-size: smaller;
+    padding-top: 1%;
+    color: white;
+}
+
+.lorem-white ul li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+}
+
+.lorem-white ul {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+    padding-top: 2%;
+    font-weight: bold;
+    color: white;
+}
+.btn4-2{
+    color: black;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: small;
+    padding: 9px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.section-9{
+    background-color: hsl(0deg 0% 96%);
+}
+.wealth{
+    font-size: xx-large;
+    font-weight: 900;
+    color: hsl(229deg 32% 26%);
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+
+}
+.bankimg{
+    padding-left: 12%;
+}
+.circle-4{
+    height: 35px;
+    width: 4%;
+    margin-right: 8%;
+    border-radius: 50%;
+    background-color: hsl(203deg 94% 38%);
+    border: none;
+
+}
+.squar{
+    height: 50px;
+    width: 35%;
+    background-color: red;
+    border: none;
+    position: relative;
+    z-index: -1;
+    top: 39px;
+    right: 14px;
+
+}
+.squar-1{
+    height: 50px;
+    width: 31%;
+    background-color: red;
+    border: none;
+    position: relative;
+    z-index: -1;
+    margin-left: 11%;
+    bottom: 43px;
+    left: 96px;
+}
+
+.charls{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.red-circle{
+    height: 35px;
+    width: 8%;
+    margin-right: 8%;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    margin-top: 10%;
+}
+
+.section-10{
+    
+}
+.oswal-image{
+    width: 90%;
+}
+.trusted-div{
+    margin-left: 6%;
+    padding-top: 3%;
+}
+.Flex10{
+    display: flex;
+}
+.photo-sec{
+    display: flex;
+}
+.investment-1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: hsl(229deg 32% 26%);
+    padding-top: 2%;
+    width: 100%;
+    padding-left: 100px;
+    /* margin-left: 40%; */
+}
+.photo-div{
+    padding-left: 16%;
+    width: 43%;
+}
+.section-11{
+    background-color: hsl(203deg 100% 94%);
+
+}
+.latest{
+    font-size: xx-large;
+    font-weight: 900;
+    color: hsl(229deg 32% 26%);
+    padding-top: 2%;
+    text-align: center;
+
+}
+.card-cofeimage{
+    width: 60%;
+}
+.btn4-div{
+    padding-top: 2%;
+}
+.july{
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.cards-Flex{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 11%;
+    padding-right: 3%;
+}
+
+.card-cofeimage1{
+    width: 88%;
+}
+.who li{
+    list-style: none;
+    padding-bottom: 11px;
+}
+.who li a{
+    text-decoration: none;
+}
+.whowe a{
+    font-weight: bold;
+    color: black;
+}
+.our-story li a{
+    font-size: smaller;
+    padding-top: 1%;
+    color: hsl(229deg 8% 60%);
+
+}
+.mainf{
+    display: flex;
+    padding-top: 3%;
+}
+.who{
+    padding: 6%;
+
+}
+.our-story{
+
+}
+.last-div{
+    background-color: hsl(0deg 0% 96%);
+}
+.lastimg{
+    padding-left: 38%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
